@@ -1,0 +1,6 @@
+framework module MHLabelUtil {
+  umbrella header "MHLabelUtil-umbrella.h"
+
+  export *
+  module * { export * }
+}

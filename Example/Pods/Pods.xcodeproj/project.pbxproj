@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03D723DB7367DAD05DDA448E85BFC52B /* Pods-MHLabelUtil_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F01E2A6AECF3A1E55890961D03440F50 /* Pods-MHLabelUtil_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A9616E6B32756969470973FA4248B7F /* Pods-MHLabelUtil_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E2C82FEAD7C7D9B758BF51A641757E /* Pods-MHLabelUtil_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2126BABF2CBE263A3D11EFC1FA2484DA /* Pods-MHLabelUtil_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB26073A81157B5B2B0B8061AEF2E92 /* Pods-MHLabelUtil_Example-dummy.m */; };
+		3788A148EE6F791DC400B417C5F200BC /* MHLabelUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5F76F24EFE529A73BBD24BB19CF918 /* MHLabelUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D460A90DB98553A2FFE87AB16B61AC7 /* Pods-MHLabelUtil_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 391ACF91816F458B9C1C4E745EA0AE25 /* Pods-MHLabelUtil_Tests-dummy.m */; };
+		885CFD0BDAA78A0931B23B5A509C6F0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AAA684FB20465C3800B08B03 /* UILabel+MHLabelOption.h in Headers */ = {isa = PBXBuildFile; fileRef = AAA684F920465C3800B08B03 /* UILabel+MHLabelOption.h */; };
+		AAA684FC20465C3800B08B03 /* UILabel+MHLabelOption.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA684FA20465C3800B08B03 /* UILabel+MHLabelOption.m */; };
+		E80FB43115D12D34EC33416760F2831C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E9A8DCB7E50AAEA2A9D00B4E3DAAFBDA /* MHLabelUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F290BD1674AD5FA68FB669521AE90460 /* MHLabelUtil-dummy.m */; };
+		F0DD2933883923083B495350E4B24846 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBB3C43DA2BFFECFD7E811400E4D06B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4F8153DACE67D90BAC40173E8618056;
+			remoteInfo = MHLabelUtil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04335B7A753767B5C9151CD63300C800 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048C0BCE2694C0E89AC0B3D655F039E8 /* Pods-MHLabelUtil_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MHLabelUtil_Example-frameworks.sh"; sourceTree = "<group>"; };
+		32DBFED51DCDE11BC027AA8A28F1A7A9 /* Pods-MHLabelUtil_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MHLabelUtil_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		33F740B4B1582FF43F799FA3A14A57E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		391ACF91816F458B9C1C4E745EA0AE25 /* Pods-MHLabelUtil_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MHLabelUtil_Tests-dummy.m"; sourceTree = "<group>"; };
+		3A776B2B9ED7B4FDDF0233C3F57A00A7 /* MHLabelUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MHLabelUtil.modulemap; sourceTree = "<group>"; };
+		3DA8B1D30154B1F89475FCF4D9418426 /* Pods-MHLabelUtil_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MHLabelUtil_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		48FEA32BF1196587D3B90E43CFC26FF2 /* Pods-MHLabelUtil_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MHLabelUtil_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4FBB58D9B23029833BA6F37EDF938FA5 /* MHLabelUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MHLabelUtil-prefix.pch"; sourceTree = "<group>"; };
+		636F86BAE5CB7A8AAA43119EF974CE34 /* Pods-MHLabelUtil_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MHLabelUtil_Example.modulemap"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7F0640167D1E0206C365C5A4D3F828D1 /* Pods_MHLabelUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHLabelUtil_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3A62F2C0369EDAF21AA4E96C4B4A38 /* MHLabelUtil.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MHLabelUtil.xcconfig; sourceTree = "<group>"; };
+		904D00EB7EF400D3C5BBFCFB2F6A32D0 /* Pods-MHLabelUtil_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MHLabelUtil_Tests-resources.sh"; sourceTree = "<group>"; };
+		91D2051E42515FED9E0C34BF873F49C1 /* Pods-MHLabelUtil_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MHLabelUtil_Example-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9626635AE9BE1B11282B96C5F4E96475 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAA684F920465C3800B08B03 /* UILabel+MHLabelOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+MHLabelOption.h"; sourceTree = "<group>"; };
+		AAA684FA20465C3800B08B03 /* UILabel+MHLabelOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+MHLabelOption.m"; sourceTree = "<group>"; };
+		B6E2C82FEAD7C7D9B758BF51A641757E /* Pods-MHLabelUtil_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MHLabelUtil_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C18166DB8FB35E35D0AE019952BEC3E1 /* Pods-MHLabelUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MHLabelUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C42AD665671E77DA97AFA8E2BA4629CF /* Pods-MHLabelUtil_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MHLabelUtil_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CF0D9B0315486DE711EB34C82AA23CC7 /* Pods-MHLabelUtil_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MHLabelUtil_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D1C446AAA5F1527C0A3540DAF31F62D2 /* Pods-MHLabelUtil_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MHLabelUtil_Tests.modulemap"; sourceTree = "<group>"; };
+		D48B420E4F75A546F50E3625662A473D /* Pods-MHLabelUtil_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MHLabelUtil_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E3BF792CCC9EBE583C12CCFF4187F03A /* MHLabelUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MHLabelUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E403EF0C3E398BDEDB66F43CCB560B34 /* Pods-MHLabelUtil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MHLabelUtil_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E62E65B53206BF5138C47A254C5BA17B /* Pods_MHLabelUtil_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHLabelUtil_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB26073A81157B5B2B0B8061AEF2E92 /* Pods-MHLabelUtil_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MHLabelUtil_Example-dummy.m"; sourceTree = "<group>"; };
+		F01E2A6AECF3A1E55890961D03440F50 /* Pods-MHLabelUtil_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MHLabelUtil_Example-umbrella.h"; sourceTree = "<group>"; };
+		F290BD1674AD5FA68FB669521AE90460 /* MHLabelUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MHLabelUtil-dummy.m"; sourceTree = "<group>"; };
+		F34DC38A6B443FDA5D67D5E09D584BBD /* Pods-MHLabelUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MHLabelUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FF5F76F24EFE529A73BBD24BB19CF918 /* MHLabelUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MHLabelUtil-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8196C431B45644CB062E9B77B71F97DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0DD2933883923083B495350E4B24846 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAA8A6133B402B6525A36B0AE5397B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E80FB43115D12D34EC33416760F2831C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE3C0178380254EA545BCF46FDAB913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885CFD0BDAA78A0931B23B5A509C6F0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17C22BF758C0056BD834135FD63094A7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AAA684F920465C3800B08B03 /* UILabel+MHLabelOption.h */,
+				AAA684FA20465C3800B08B03 /* UILabel+MHLabelOption.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		35EEDFFD3D8D98A3A3B381706F072BCD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9626635AE9BE1B11282B96C5F4E96475 /* Info.plist */,
+				3A776B2B9ED7B4FDDF0233C3F57A00A7 /* MHLabelUtil.modulemap */,
+				8E3A62F2C0369EDAF21AA4E96C4B4A38 /* MHLabelUtil.xcconfig */,
+				F290BD1674AD5FA68FB669521AE90460 /* MHLabelUtil-dummy.m */,
+				4FBB58D9B23029833BA6F37EDF938FA5 /* MHLabelUtil-prefix.pch */,
+				FF5F76F24EFE529A73BBD24BB19CF918 /* MHLabelUtil-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MHLabelUtil";
+			sourceTree = "<group>";
+		};
+		7AF40BC876D7194C68BD74209D09A448 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3BF792CCC9EBE583C12CCFF4187F03A /* MHLabelUtil.framework */,
+				E62E65B53206BF5138C47A254C5BA17B /* Pods_MHLabelUtil_Example.framework */,
+				7F0640167D1E0206C365C5A4D3F828D1 /* Pods_MHLabelUtil_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C794A374E0600E91D55B87AA0151633 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				89F9BC37237E3EF7466DEA08CCD07D9F /* Pods-MHLabelUtil_Example */,
+				8CC532190ED1C69AA53DB7A37E1EAE44 /* Pods-MHLabelUtil_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F20057EE5345CB8F97CB42755DC2B385 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7AF40BC876D7194C68BD74209D09A448 /* Products */,
+				7C794A374E0600E91D55B87AA0151633 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		89F9BC37237E3EF7466DEA08CCD07D9F /* Pods-MHLabelUtil_Example */ = {
+			isa = PBXGroup;
+			children = (
+				04335B7A753767B5C9151CD63300C800 /* Info.plist */,
+				636F86BAE5CB7A8AAA43119EF974CE34 /* Pods-MHLabelUtil_Example.modulemap */,
+				D48B420E4F75A546F50E3625662A473D /* Pods-MHLabelUtil_Example-acknowledgements.markdown */,
+				3DA8B1D30154B1F89475FCF4D9418426 /* Pods-MHLabelUtil_Example-acknowledgements.plist */,
+				EEB26073A81157B5B2B0B8061AEF2E92 /* Pods-MHLabelUtil_Example-dummy.m */,
+				048C0BCE2694C0E89AC0B3D655F039E8 /* Pods-MHLabelUtil_Example-frameworks.sh */,
+				91D2051E42515FED9E0C34BF873F49C1 /* Pods-MHLabelUtil_Example-resources.sh */,
+				F01E2A6AECF3A1E55890961D03440F50 /* Pods-MHLabelUtil_Example-umbrella.h */,
+				E403EF0C3E398BDEDB66F43CCB560B34 /* Pods-MHLabelUtil_Example.debug.xcconfig */,
+				48FEA32BF1196587D3B90E43CFC26FF2 /* Pods-MHLabelUtil_Example.release.xcconfig */,
+			);
+			name = "Pods-MHLabelUtil_Example";
+			path = "Target Support Files/Pods-MHLabelUtil_Example";
+			sourceTree = "<group>";
+		};
+		8CC532190ED1C69AA53DB7A37E1EAE44 /* Pods-MHLabelUtil_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				33F740B4B1582FF43F799FA3A14A57E0 /* Info.plist */,
+				D1C446AAA5F1527C0A3540DAF31F62D2 /* Pods-MHLabelUtil_Tests.modulemap */,
+				C42AD665671E77DA97AFA8E2BA4629CF /* Pods-MHLabelUtil_Tests-acknowledgements.markdown */,
+				32DBFED51DCDE11BC027AA8A28F1A7A9 /* Pods-MHLabelUtil_Tests-acknowledgements.plist */,
+				391ACF91816F458B9C1C4E745EA0AE25 /* Pods-MHLabelUtil_Tests-dummy.m */,
+				CF0D9B0315486DE711EB34C82AA23CC7 /* Pods-MHLabelUtil_Tests-frameworks.sh */,
+				904D00EB7EF400D3C5BBFCFB2F6A32D0 /* Pods-MHLabelUtil_Tests-resources.sh */,
+				B6E2C82FEAD7C7D9B758BF51A641757E /* Pods-MHLabelUtil_Tests-umbrella.h */,
+				C18166DB8FB35E35D0AE019952BEC3E1 /* Pods-MHLabelUtil_Tests.debug.xcconfig */,
+				F34DC38A6B443FDA5D67D5E09D584BBD /* Pods-MHLabelUtil_Tests.release.xcconfig */,
+			);
+			name = "Pods-MHLabelUtil_Tests";
+			path = "Target Support Files/Pods-MHLabelUtil_Tests";
+			sourceTree = "<group>";
+		};
+		A8749D18BD092378076970EA34AE1D2D /* MHLabelUtil */ = {
+			isa = PBXGroup;
+			children = (
+				D54C138744DD1BCFDEF7BDD8897E9757 /* MHLabelUtil */,
+				35EEDFFD3D8D98A3A3B381706F072BCD /* Support Files */,
+			);
+			name = MHLabelUtil;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D54C138744DD1BCFDEF7BDD8897E9757 /* MHLabelUtil */ = {
+			isa = PBXGroup;
+			children = (
+				17C22BF758C0056BD834135FD63094A7 /* Classes */,
+			);
+			path = MHLabelUtil;
+			sourceTree = "<group>";
+		};
+		F20057EE5345CB8F97CB42755DC2B385 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8749D18BD092378076970EA34AE1D2D /* MHLabelUtil */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3D7AAE82BFF1DE837404E2A7C22D5B2D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9616E6B32756969470973FA4248B7F /* Pods-MHLabelUtil_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79A46E925CC40E6F6C8CDED1110E8AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA684FB20465C3800B08B03 /* UILabel+MHLabelOption.h in Headers */,
+				3788A148EE6F791DC400B417C5F200BC /* MHLabelUtil-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC524CEBE73E2E1BCDDB4709B972DB1E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D723DB7367DAD05DDA448E85BFC52B /* Pods-MHLabelUtil_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9129207EA49EF102738CEC844203F1E6 /* Pods-MHLabelUtil_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A753B3E0806BAFE58F26E36724B6ABF /* Build configuration list for PBXNativeTarget "Pods-MHLabelUtil_Tests" */;
+			buildPhases = (
+				D2FE0F6F3B89D50A9AD7FB20D6B8D9DA /* Sources */,
+				DBE3C0178380254EA545BCF46FDAB913 /* Frameworks */,
+				3D7AAE82BFF1DE837404E2A7C22D5B2D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MHLabelUtil_Tests";
+			productName = "Pods-MHLabelUtil_Tests";
+			productReference = 7F0640167D1E0206C365C5A4D3F828D1 /* Pods_MHLabelUtil_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A76299DBDBF65859D2CA20363F3EA98C /* Pods-MHLabelUtil_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7BC7805394BDD99C4F3390183AE1974 /* Build configuration list for PBXNativeTarget "Pods-MHLabelUtil_Example" */;
+			buildPhases = (
+				D2E3E649B6802734E5C2D6CEC9B02760 /* Sources */,
+				8196C431B45644CB062E9B77B71F97DF /* Frameworks */,
+				BC524CEBE73E2E1BCDDB4709B972DB1E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35117C0E1E351AF956658160260DF9EA /* PBXTargetDependency */,
+			);
+			name = "Pods-MHLabelUtil_Example";
+			productName = "Pods-MHLabelUtil_Example";
+			productReference = E62E65B53206BF5138C47A254C5BA17B /* Pods_MHLabelUtil_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B4F8153DACE67D90BAC40173E8618056 /* MHLabelUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F9194E85355698BD86725C900A9839D /* Build configuration list for PBXNativeTarget "MHLabelUtil" */;
+			buildPhases = (
+				17C8883B432BCCD7C0418EAF251A41F0 /* Sources */,
+				BCAA8A6133B402B6525A36B0AE5397B6 /* Frameworks */,
+				B79A46E925CC40E6F6C8CDED1110E8AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MHLabelUtil;
+			productName = MHLabelUtil;
+			productReference = E3BF792CCC9EBE583C12CCFF4187F03A /* MHLabelUtil.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7AF40BC876D7194C68BD74209D09A448 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4F8153DACE67D90BAC40173E8618056 /* MHLabelUtil */,
+				A76299DBDBF65859D2CA20363F3EA98C /* Pods-MHLabelUtil_Example */,
+				9129207EA49EF102738CEC844203F1E6 /* Pods-MHLabelUtil_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17C8883B432BCCD7C0418EAF251A41F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A8DCB7E50AAEA2A9D00B4E3DAAFBDA /* MHLabelUtil-dummy.m in Sources */,
+				AAA684FC20465C3800B08B03 /* UILabel+MHLabelOption.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E3E649B6802734E5C2D6CEC9B02760 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2126BABF2CBE263A3D11EFC1FA2484DA /* Pods-MHLabelUtil_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2FE0F6F3B89D50A9AD7FB20D6B8D9DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D460A90DB98553A2FFE87AB16B61AC7 /* Pods-MHLabelUtil_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35117C0E1E351AF956658160260DF9EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MHLabelUtil;
+			target = B4F8153DACE67D90BAC40173E8618056 /* MHLabelUtil */;
+			targetProxy = DBB3C43DA2BFFECFD7E811400E4D06B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		028E938518CD6B2E36F0DEA2FDBDBF16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E3A62F2C0369EDAF21AA4E96C4B4A38 /* MHLabelUtil.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MHLabelUtil/MHLabelUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MHLabelUtil/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MHLabelUtil/MHLabelUtil.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MHLabelUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		997190933F3659CF3CC97749C44B3077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48FEA32BF1196587D3B90E43CFC26FF2 /* Pods-MHLabelUtil_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MHLabelUtil_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MHLabelUtil_Example/Pods-MHLabelUtil_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MHLabelUtil_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B65A1E50B3F7A63C8194013A07CB69F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E3A62F2C0369EDAF21AA4E96C4B4A38 /* MHLabelUtil.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MHLabelUtil/MHLabelUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MHLabelUtil/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MHLabelUtil/MHLabelUtil.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MHLabelUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C88DEBC7A3389FB4DE0959EC782108BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F34DC38A6B443FDA5D67D5E09D584BBD /* Pods-MHLabelUtil_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MHLabelUtil_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MHLabelUtil_Tests/Pods-MHLabelUtil_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MHLabelUtil_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E173D9BE2137DEE3E0A64C1DCC819DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E403EF0C3E398BDEDB66F43CCB560B34 /* Pods-MHLabelUtil_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MHLabelUtil_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MHLabelUtil_Example/Pods-MHLabelUtil_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MHLabelUtil_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED365DB93A4D71425F09B9CA8AA0A1AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C18166DB8FB35E35D0AE019952BEC3E1 /* Pods-MHLabelUtil_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MHLabelUtil_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MHLabelUtil_Tests/Pods-MHLabelUtil_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MHLabelUtil_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F9194E85355698BD86725C900A9839D /* Build configuration list for PBXNativeTarget "MHLabelUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65A1E50B3F7A63C8194013A07CB69F2 /* Debug */,
+				028E938518CD6B2E36F0DEA2FDBDBF16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A753B3E0806BAFE58F26E36724B6ABF /* Build configuration list for PBXNativeTarget "Pods-MHLabelUtil_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED365DB93A4D71425F09B9CA8AA0A1AF /* Debug */,
+				C88DEBC7A3389FB4DE0959EC782108BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7BC7805394BDD99C4F3390183AE1974 /* Build configuration list for PBXNativeTarget "Pods-MHLabelUtil_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E173D9BE2137DEE3E0A64C1DCC819DD9 /* Debug */,
+				997190933F3659CF3CC97749C44B3077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

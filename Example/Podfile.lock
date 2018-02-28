@@ -1,0 +1,16 @@
+PODS:
+  - MHLabelUtil (0.1.0)
+
+DEPENDENCIES:
+  - MHLabelUtil (from `../`)
+
+EXTERNAL SOURCES:
+  MHLabelUtil:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MHLabelUtil: 8abed9334131fd8d4f04ec83784816506f247a3a
+
+PODFILE CHECKSUM: 44b116cc57e1e6ad1c1110720d704e9bd7a151ce
+
+COCOAPODS: 1.2.1
