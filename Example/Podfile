@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MHLabelUtil_Example' do
+  pod 'MHLabelUtil', :path => '../'
+
+  target 'MHLabelUtil_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
