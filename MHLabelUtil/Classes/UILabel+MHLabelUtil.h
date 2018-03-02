@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UILabel (MHLabelOption)
+@interface UILabel (MHLabelUtil)
 
 @property (nonatomic, assign)BOOL shouldAutoAdjustLabelHeight;
 @property (nonatomic, assign)BOOL shouldAutoAdjustLabelWidth;
@@ -16,11 +16,29 @@
 @property (nonatomic, assign)NSNumberFormatterStyle numberFormatterStyle;
 @property (nonatomic, assign)NSInteger decimalRemain;/**<保留小数位*/
 
-//自动匹配label宽度/长度
--(void)autoAdjustLabelHeight:(BOOL)isHeightSetting withText:(NSString*)text;
--(CGSize)adjustLabelHeight:(BOOL)isHeightSetting withText:(NSString *)text;
 
--(void)changeAlignmentLeftAndRight;/**<两端对齐*/
+#pragma mark - 文本尺寸计算方法
+/**
+ * Label文本适配（使用label文本属性）
+ * 根据文字，Lable属性，调整Label尺寸
+ 
+ @param isHeightSetting 自适配高度/宽度；YES：高度自适配；NO：宽度自适配
+ @param text 文本内容
+ */
+-(void)autoReloadLabelHeight:(BOOL)isHeightSetting withText:(NSString*)text;
+
+/**
+ * Label文本适配（自定义文本属性）
+ * 根据文字，文字属性，调整Label尺寸
+ 
+ @param isHeightSetting 自适配高度/宽度；YES：高度自适配；NO：宽度自适配
+ @param text 文本内容
+ @param attributeDict Label文字属性
+ */
+-(void)autoReloadLabelHeight:(BOOL)isHeightSetting withText:(NSString*)text textAttribute:(NSDictionary *)attributeDict;
+
+/**<两端对齐*/
+//-(void)textJustify;
 
 
 /**
