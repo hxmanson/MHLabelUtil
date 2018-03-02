@@ -1,8 +1,7 @@
 {
   "name": "MHLabelUtil",
-  "version": "0.1.0",
-  "summary": "A short description of MHLabelUtil.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.0.1",
+  "summary": "扩展UILabel",
   "homepage": "https://github.com/mansonhu/MHLabelUtil",
   "license": {
     "type": "MIT",
@@ -13,10 +12,11 @@
   },
   "source": {
     "git": "https://github.com/mansonhu/MHLabelUtil.git",
-    "tag": "0.1.0"
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MHLabelUtil/Classes/**/*"
+  "source_files": "MHLabelUtil/Classes/**/*",
+  "requires_arc": true
 }

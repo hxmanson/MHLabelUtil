@@ -10,13 +10,13 @@
 		03D723DB7367DAD05DDA448E85BFC52B /* Pods-MHLabelUtil_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F01E2A6AECF3A1E55890961D03440F50 /* Pods-MHLabelUtil_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A9616E6B32756969470973FA4248B7F /* Pods-MHLabelUtil_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E2C82FEAD7C7D9B758BF51A641757E /* Pods-MHLabelUtil_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2126BABF2CBE263A3D11EFC1FA2484DA /* Pods-MHLabelUtil_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB26073A81157B5B2B0B8061AEF2E92 /* Pods-MHLabelUtil_Example-dummy.m */; };
-		3788A148EE6F791DC400B417C5F200BC /* MHLabelUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5F76F24EFE529A73BBD24BB19CF918 /* MHLabelUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AE041C6E007E54D57718455DD4AF9FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		4D460A90DB98553A2FFE87AB16B61AC7 /* Pods-MHLabelUtil_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 391ACF91816F458B9C1C4E745EA0AE25 /* Pods-MHLabelUtil_Tests-dummy.m */; };
+		521E1257B4E0C7F72F399923E31ADCF3 /* MHLabelUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F290BD1674AD5FA68FB669521AE90460 /* MHLabelUtil-dummy.m */; };
+		5378C5E62818DADCF50A0C0ECC1295ED /* MHLabelUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5F76F24EFE529A73BBD24BB19CF918 /* MHLabelUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AC85FC8EB8B8199AFD963E210A595A3 /* UILabel+MHLabelOption.h in Headers */ = {isa = PBXBuildFile; fileRef = 453BBA847B7C7950926A9B56BBDF6DFF /* UILabel+MHLabelOption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BBF358EA08BC7B4CD7B39B346B781BD /* UILabel+MHLabelOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F864DF1597F7D24B10205B295D152F /* UILabel+MHLabelOption.m */; };
 		885CFD0BDAA78A0931B23B5A509C6F0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		AAA684FB20465C3800B08B03 /* UILabel+MHLabelOption.h in Headers */ = {isa = PBXBuildFile; fileRef = AAA684F920465C3800B08B03 /* UILabel+MHLabelOption.h */; };
-		AAA684FC20465C3800B08B03 /* UILabel+MHLabelOption.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA684FA20465C3800B08B03 /* UILabel+MHLabelOption.m */; };
-		E80FB43115D12D34EC33416760F2831C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E9A8DCB7E50AAEA2A9D00B4E3DAAFBDA /* MHLabelUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F290BD1674AD5FA68FB669521AE90460 /* MHLabelUtil-dummy.m */; };
 		F0DD2933883923083B495350E4B24846 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +25,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B4F8153DACE67D90BAC40173E8618056;
+			remoteGlobalIDString = C95BC2C24542E7852FA53FD76AD9E108;
 			remoteInfo = MHLabelUtil;
 		};
 /* End PBXContainerItemProxy section */
@@ -33,32 +33,32 @@
 /* Begin PBXFileReference section */
 		04335B7A753767B5C9151CD63300C800 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		048C0BCE2694C0E89AC0B3D655F039E8 /* Pods-MHLabelUtil_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MHLabelUtil_Example-frameworks.sh"; sourceTree = "<group>"; };
+		25F864DF1597F7D24B10205B295D152F /* UILabel+MHLabelOption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+MHLabelOption.m"; sourceTree = "<group>"; };
 		32DBFED51DCDE11BC027AA8A28F1A7A9 /* Pods-MHLabelUtil_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MHLabelUtil_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		33F740B4B1582FF43F799FA3A14A57E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		391ACF91816F458B9C1C4E745EA0AE25 /* Pods-MHLabelUtil_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MHLabelUtil_Tests-dummy.m"; sourceTree = "<group>"; };
-		3A776B2B9ED7B4FDDF0233C3F57A00A7 /* MHLabelUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MHLabelUtil.modulemap; sourceTree = "<group>"; };
+		3A776B2B9ED7B4FDDF0233C3F57A00A7 /* MHLabelUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MHLabelUtil.modulemap; sourceTree = "<group>"; };
 		3DA8B1D30154B1F89475FCF4D9418426 /* Pods-MHLabelUtil_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MHLabelUtil_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		453BBA847B7C7950926A9B56BBDF6DFF /* UILabel+MHLabelOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+MHLabelOption.h"; sourceTree = "<group>"; };
 		48FEA32BF1196587D3B90E43CFC26FF2 /* Pods-MHLabelUtil_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MHLabelUtil_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4FBB58D9B23029833BA6F37EDF938FA5 /* MHLabelUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MHLabelUtil-prefix.pch"; sourceTree = "<group>"; };
-		636F86BAE5CB7A8AAA43119EF974CE34 /* Pods-MHLabelUtil_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MHLabelUtil_Example.modulemap"; sourceTree = "<group>"; };
+		636F86BAE5CB7A8AAA43119EF974CE34 /* Pods-MHLabelUtil_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MHLabelUtil_Example.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7F0640167D1E0206C365C5A4D3F828D1 /* Pods_MHLabelUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHLabelUtil_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F0640167D1E0206C365C5A4D3F828D1 /* Pods_MHLabelUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MHLabelUtil_Tests.framework; path = "Pods-MHLabelUtil_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E3A62F2C0369EDAF21AA4E96C4B4A38 /* MHLabelUtil.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MHLabelUtil.xcconfig; sourceTree = "<group>"; };
 		904D00EB7EF400D3C5BBFCFB2F6A32D0 /* Pods-MHLabelUtil_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MHLabelUtil_Tests-resources.sh"; sourceTree = "<group>"; };
 		91D2051E42515FED9E0C34BF873F49C1 /* Pods-MHLabelUtil_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MHLabelUtil_Example-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9626635AE9BE1B11282B96C5F4E96475 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AAA684F920465C3800B08B03 /* UILabel+MHLabelOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+MHLabelOption.h"; sourceTree = "<group>"; };
-		AAA684FA20465C3800B08B03 /* UILabel+MHLabelOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+MHLabelOption.m"; sourceTree = "<group>"; };
 		B6E2C82FEAD7C7D9B758BF51A641757E /* Pods-MHLabelUtil_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MHLabelUtil_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C18166DB8FB35E35D0AE019952BEC3E1 /* Pods-MHLabelUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MHLabelUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C42AD665671E77DA97AFA8E2BA4629CF /* Pods-MHLabelUtil_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MHLabelUtil_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CF0D9B0315486DE711EB34C82AA23CC7 /* Pods-MHLabelUtil_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MHLabelUtil_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		D1C446AAA5F1527C0A3540DAF31F62D2 /* Pods-MHLabelUtil_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MHLabelUtil_Tests.modulemap"; sourceTree = "<group>"; };
+		D1C446AAA5F1527C0A3540DAF31F62D2 /* Pods-MHLabelUtil_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MHLabelUtil_Tests.modulemap"; sourceTree = "<group>"; };
 		D48B420E4F75A546F50E3625662A473D /* Pods-MHLabelUtil_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MHLabelUtil_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E3BF792CCC9EBE583C12CCFF4187F03A /* MHLabelUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MHLabelUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3BF792CCC9EBE583C12CCFF4187F03A /* MHLabelUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MHLabelUtil.framework; path = MHLabelUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E403EF0C3E398BDEDB66F43CCB560B34 /* Pods-MHLabelUtil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MHLabelUtil_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E62E65B53206BF5138C47A254C5BA17B /* Pods_MHLabelUtil_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHLabelUtil_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E62E65B53206BF5138C47A254C5BA17B /* Pods_MHLabelUtil_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MHLabelUtil_Example.framework; path = "Pods-MHLabelUtil_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB26073A81157B5B2B0B8061AEF2E92 /* Pods-MHLabelUtil_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MHLabelUtil_Example-dummy.m"; sourceTree = "<group>"; };
 		F01E2A6AECF3A1E55890961D03440F50 /* Pods-MHLabelUtil_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MHLabelUtil_Example-umbrella.h"; sourceTree = "<group>"; };
 		F290BD1674AD5FA68FB669521AE90460 /* MHLabelUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MHLabelUtil-dummy.m"; sourceTree = "<group>"; };
@@ -75,11 +75,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BCAA8A6133B402B6525A36B0AE5397B6 /* Frameworks */ = {
+		CEB08849AC5C36697DF9B26E01107013 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E80FB43115D12D34EC33416760F2831C /* Foundation.framework in Frameworks */,
+				4AE041C6E007E54D57718455DD4AF9FB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,15 +94,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17C22BF758C0056BD834135FD63094A7 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				AAA684F920465C3800B08B03 /* UILabel+MHLabelOption.h */,
-				AAA684FA20465C3800B08B03 /* UILabel+MHLabelOption.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		35EEDFFD3D8D98A3A3B381706F072BCD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +106,16 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/MHLabelUtil";
+			sourceTree = "<group>";
+		};
+		731FC69E6B72651A39952B5E720088CD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				453BBA847B7C7950926A9B56BBDF6DFF /* UILabel+MHLabelOption.h */,
+				25F864DF1597F7D24B10205B295D152F /* UILabel+MHLabelOption.m */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7AF40BC876D7194C68BD74209D09A448 /* Products */ = {
@@ -186,11 +187,20 @@
 		A8749D18BD092378076970EA34AE1D2D /* MHLabelUtil */ = {
 			isa = PBXGroup;
 			children = (
-				D54C138744DD1BCFDEF7BDD8897E9757 /* MHLabelUtil */,
+				A9580EEC1900E0E5102841D97EC261C0 /* MHLabelUtil */,
 				35EEDFFD3D8D98A3A3B381706F072BCD /* Support Files */,
 			);
 			name = MHLabelUtil;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		A9580EEC1900E0E5102841D97EC261C0 /* MHLabelUtil */ = {
+			isa = PBXGroup;
+			children = (
+				731FC69E6B72651A39952B5E720088CD /* Classes */,
+			);
+			name = MHLabelUtil;
+			path = MHLabelUtil;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -209,14 +219,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D54C138744DD1BCFDEF7BDD8897E9757 /* MHLabelUtil */ = {
-			isa = PBXGroup;
-			children = (
-				17C22BF758C0056BD834135FD63094A7 /* Classes */,
-			);
-			path = MHLabelUtil;
-			sourceTree = "<group>";
-		};
 		F20057EE5345CB8F97CB42755DC2B385 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,20 +230,20 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		38C0259036CABA7E697C89E5A2136682 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5378C5E62818DADCF50A0C0ECC1295ED /* MHLabelUtil-umbrella.h in Headers */,
+				7AC85FC8EB8B8199AFD963E210A595A3 /* UILabel+MHLabelOption.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3D7AAE82BFF1DE837404E2A7C22D5B2D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0A9616E6B32756969470973FA4248B7F /* Pods-MHLabelUtil_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B79A46E925CC40E6F6C8CDED1110E8AA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AAA684FB20465C3800B08B03 /* UILabel+MHLabelOption.h in Headers */,
-				3788A148EE6F791DC400B417C5F200BC /* MHLabelUtil-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,13 +293,13 @@
 			productReference = E62E65B53206BF5138C47A254C5BA17B /* Pods_MHLabelUtil_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B4F8153DACE67D90BAC40173E8618056 /* MHLabelUtil */ = {
+		C95BC2C24542E7852FA53FD76AD9E108 /* MHLabelUtil */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F9194E85355698BD86725C900A9839D /* Build configuration list for PBXNativeTarget "MHLabelUtil" */;
+			buildConfigurationList = 0F871368864BA88ED4A20C3F731B48C2 /* Build configuration list for PBXNativeTarget "MHLabelUtil" */;
 			buildPhases = (
-				17C8883B432BCCD7C0418EAF251A41F0 /* Sources */,
-				BCAA8A6133B402B6525A36B0AE5397B6 /* Frameworks */,
-				B79A46E925CC40E6F6C8CDED1110E8AA /* Headers */,
+				45609A20028A90C5D6246A7B6F58B099 /* Sources */,
+				CEB08849AC5C36697DF9B26E01107013 /* Frameworks */,
+				38C0259036CABA7E697C89E5A2136682 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -329,7 +331,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B4F8153DACE67D90BAC40173E8618056 /* MHLabelUtil */,
+				C95BC2C24542E7852FA53FD76AD9E108 /* MHLabelUtil */,
 				A76299DBDBF65859D2CA20363F3EA98C /* Pods-MHLabelUtil_Example */,
 				9129207EA49EF102738CEC844203F1E6 /* Pods-MHLabelUtil_Tests */,
 			);
@@ -337,12 +339,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		17C8883B432BCCD7C0418EAF251A41F0 /* Sources */ = {
+		45609A20028A90C5D6246A7B6F58B099 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9A8DCB7E50AAEA2A9D00B4E3DAAFBDA /* MHLabelUtil-dummy.m in Sources */,
-				AAA684FC20465C3800B08B03 /* UILabel+MHLabelOption.m in Sources */,
+				521E1257B4E0C7F72F399923E31ADCF3 /* MHLabelUtil-dummy.m in Sources */,
+				7BBF358EA08BC7B4CD7B39B346B781BD /* UILabel+MHLabelOption.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,44 +370,12 @@
 		35117C0E1E351AF956658160260DF9EA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MHLabelUtil;
-			target = B4F8153DACE67D90BAC40173E8618056 /* MHLabelUtil */;
+			target = C95BC2C24542E7852FA53FD76AD9E108 /* MHLabelUtil */;
 			targetProxy = DBB3C43DA2BFFECFD7E811400E4D06B7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		028E938518CD6B2E36F0DEA2FDBDBF16 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E3A62F2C0369EDAF21AA4E96C4B4A38 /* MHLabelUtil.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MHLabelUtil/MHLabelUtil-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MHLabelUtil/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MHLabelUtil/MHLabelUtil.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = MHLabelUtil;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -450,6 +420,38 @@
 			};
 			name = Release;
 		};
+		1B35F984E57B81F0DEEEF6A79E0BE925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E3A62F2C0369EDAF21AA4E96C4B4A38 /* MHLabelUtil.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MHLabelUtil/MHLabelUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MHLabelUtil/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MHLabelUtil/MHLabelUtil.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MHLabelUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		997190933F3659CF3CC97749C44B3077 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 48FEA32BF1196587D3B90E43CFC26FF2 /* Pods-MHLabelUtil_Example.release.xcconfig */;
@@ -486,38 +488,6 @@
 			};
 			name = Release;
 		};
-		B65A1E50B3F7A63C8194013A07CB69F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E3A62F2C0369EDAF21AA4E96C4B4A38 /* MHLabelUtil.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MHLabelUtil/MHLabelUtil-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MHLabelUtil/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MHLabelUtil/MHLabelUtil.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MHLabelUtil;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		C88DEBC7A3389FB4DE0959EC782108BF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F34DC38A6B443FDA5D67D5E09D584BBD /* Pods-MHLabelUtil_Tests.release.xcconfig */;
@@ -546,6 +516,38 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_MHLabelUtil_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA9F91EA012C3430CBFAC06C44E9D0AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E3A62F2C0369EDAF21AA4E96C4B4A38 /* MHLabelUtil.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MHLabelUtil/MHLabelUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MHLabelUtil/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MHLabelUtil/MHLabelUtil.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MHLabelUtil;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -677,20 +679,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0F871368864BA88ED4A20C3F731B48C2 /* Build configuration list for PBXNativeTarget "MHLabelUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B35F984E57B81F0DEEEF6A79E0BE925 /* Debug */,
+				CA9F91EA012C3430CBFAC06C44E9D0AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */,
 				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5F9194E85355698BD86725C900A9839D /* Build configuration list for PBXNativeTarget "MHLabelUtil" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B65A1E50B3F7A63C8194013A07CB69F2 /* Debug */,
-				028E938518CD6B2E36F0DEA2FDBDBF16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

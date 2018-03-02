@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UILabel+MHLabelOption.h"
 
 FOUNDATION_EXPORT double MHLabelUtilVersionNumber;
 FOUNDATION_EXPORT const unsigned char MHLabelUtilVersionString[];
